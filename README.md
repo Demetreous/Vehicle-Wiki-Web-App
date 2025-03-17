@@ -2,7 +2,7 @@
 
 Welcome to the **Vehicle Wiki Web App**! This application allows you to search and compare vehicles using advanced machine learning models and search engines. The app supports two methods for efficient vehicle retrieval: **Faiss** and **PyLucene**.
 
-Query output using PyLucene Index in light modequery output using BERT Index in dark mode (right/bottom)
+Query output using PyLucene Index in light modequery output using BERT Index in dark mode
 <img src="screenshots/PyLucene_search.png" alt="PyLucene Search">
     
 Query output using BERT Index in dark mode (right/bottom)
@@ -24,7 +24,7 @@ Upon opening the app, users are greeted with a centered title and a simple searc
 ### Settings Menu
 The settings menu houses all additional features, designed for ease of use and customization.
 
-<img src="screenshots/settings.png" alt="settings menu" width="200">
+<img src="screenshots/settings.png" alt="settings menu" width="175">
 
 
 - #### Indexing Method Selection
