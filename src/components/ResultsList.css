@@ -1,0 +1,42 @@
+/* ResultsList.css */
+/* Default (Light Mode) */
+.search-result {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: left;
+  color: #333; /* Dark text in light mode */
+}
+
+/* Link styles */
+.search-result a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.search-result a:hover {
+  text-decoration: underline;
+}
+
+/* Remove bullet points */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* DARK MODE */
+.dark-mode .search-result {
+  background-color: #333 !important; /* Dark background */
+  border: 1px solid #555 !important; /* Darker border */
+  color: white !important; /* White text */
+}
+
+.dark-mode .search-result a {
+  color: #66b3ff !important; /* Light blue for contrast */
+}
+
+.dark-mode .search-result a:hover {
+  color: #88c0ff !important; /* Slightly lighter blue */
+}
