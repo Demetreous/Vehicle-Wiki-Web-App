@@ -4,12 +4,18 @@ Welcome to the **Vehicle Wiki Web App**! This application allows you to search a
 
 Home screen shown in light mode (left) and dark mode (right)
 
-<img src="screenshots/home.png" alt="Home Screen" width="500"> <img src="screenshots/home_dark.png" alt="Home Screen" width="500">
+<div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="screenshots/home.png" alt="Home Screen" width="500">
+    <img src="screenshots/home_dark.png" alt="Home Screen Dark Mode" width="500">
+</div>
+
 
 Query output using PyLucene Index in light mode (left) and query output using BERT Index in dark mode (right)
 
-<img src="screenshots/PyLucene_search.png" alt="PyLucene Search" width="500"> <img src="screenshots/BERT_search.png" alt="BERT Search" width="500">
-
+<div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="screenshots/PyLucene_search.png" alt="PyLucene Search" width="500">
+    <img src="screenshots/BERT_search.png" alt="BERT Search" width="500">
+</div>
 
 ---
 
